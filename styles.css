@@ -165,3 +165,6 @@ header nav,header .nav-links{background:transparent}
 
 /* Bold main navigation links. */
 header .nav-links a{font-weight:600}
+
+/* Explicit composite sizing prevents lower shirt rows disappearing on mobile. */
+.shirt-image-window img{height:426.470588%;object-fit:fill;max-height:none}
